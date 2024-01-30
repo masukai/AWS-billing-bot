@@ -46,7 +46,6 @@ resource "aws_cloudwatch_event_rule" "lambda_billing" {
   name                = "example-lambda-billing"
   description         = "example lambda billing"
   schedule_expression = local.cron
-  is_enabled          = true
 }
 
 resource "aws_cloudwatch_event_target" "lambda_billing" {
