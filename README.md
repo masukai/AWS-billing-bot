@@ -68,6 +68,10 @@ terraform apply
 > bot を AWS から消す・仕舞う・片付けることがしたい場合は`terraform workspace select`コマンドで対応する AWS アカウントに移動し、以下のコマンドを利用。
 > `terraform destroy`
 
+> [!Note]
+> terraform workspace の便利コマンド
+> `terraform workspace list`
+
 ## ドキュメント
 
 - [環境構築や詳細について](docs/prepare.md)

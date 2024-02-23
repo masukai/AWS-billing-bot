@@ -48,6 +48,12 @@ Docker で terraform が使えるかどうかは`terraform --version`で確認�
 
 terraform を使わない場合の参考：https://zenn.dev/antyuntyun/articles/aws_cost_notification_to_teams_by_lambda
 
+terraform で Lambda 作る：https://zenn.dev/not75743/articles/7a7d3a2fc7e788
+
+terraform の for_each について：https://francescoboffa.com/terraform-multiple-policies-to-roles/
+
+aws cli 及び credentials 周辺：https://zenn.dev/akkie1030/articles/aws-cli-setup-tutorial
+
 docker で aws credentials 周りをマウントする：https://zenn.dev/faycute/articles/e72d62db84084c
 
 terraform の archive_file について：https://registry.terraform.io/providers/hashicorp/archive/latest/docs/data-sources/file
